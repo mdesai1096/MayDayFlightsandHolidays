@@ -3,29 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MayDayFrontOffice", "MayDayFrontOffice\", "{D57F9439-D277-413F-9B72-BBBDA1114F7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayDayBackOffice", "MayDayBackOffice.csproj", "{5F7FCC59-6FD1-4424-B5BA-9AF65A4559D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary.csproj", "{8170828F-3F8D-4684-9DFC-C2DFB4E07DBB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MayDayFrontOffice", "..\MayDayFrontOffice\", "{174EA2D9-C858-4F5C-B036-D967DBF853A5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_10530"
-		Debug.AspNetCompiler.PhysicalPath = "MayDayFrontOffice\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10530\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51861"
+		Debug.AspNetCompiler.PhysicalPath = "..\MayDayFrontOffice\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51861\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_10530"
-		Release.AspNetCompiler.PhysicalPath = "MayDayFrontOffice\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10530\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51861"
+		Release.AspNetCompiler.PhysicalPath = "..\MayDayFrontOffice\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51861\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "10530"
+		VWDPort = "51861"
+		SlnRelativePath = "..\MayDayFrontOffice\"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayDayBackOffice", "MayDayBackOffice\MayDayBackOffice.csproj", "{5F7FCC59-6FD1-4424-B5BA-9AF65A4559D0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{8170828F-3F8D-4684-9DFC-C2DFB4E07DBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +34,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D57F9439-D277-413F-9B72-BBBDA1114F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D57F9439-D277-413F-9B72-BBBDA1114F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D57F9439-D277-413F-9B72-BBBDA1114F7B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{D57F9439-D277-413F-9B72-BBBDA1114F7B}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{5F7FCC59-6FD1-4424-B5BA-9AF65A4559D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F7FCC59-6FD1-4424-B5BA-9AF65A4559D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7FCC59-6FD1-4424-B5BA-9AF65A4559D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +42,10 @@ Global
 		{8170828F-3F8D-4684-9DFC-C2DFB4E07DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8170828F-3F8D-4684-9DFC-C2DFB4E07DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8170828F-3F8D-4684-9DFC-C2DFB4E07DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174EA2D9-C858-4F5C-B036-D967DBF853A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174EA2D9-C858-4F5C-B036-D967DBF853A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174EA2D9-C858-4F5C-B036-D967DBF853A5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{174EA2D9-C858-4F5C-B036-D967DBF853A5}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
